@@ -55,7 +55,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "https://ml-gules.vercel.app", "*"
+    "https://ml-gules.vercel.app",
 ]
 
 ROOT_URLCONF = 'machineweb.urls'
