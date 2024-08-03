@@ -1,0 +1,9 @@
+modules = ["python-3.12", "web"]
+run = "cd machineweb python manage.py runserver"
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+deploymentTarget = "static"
+publicDir = "machineweb/templates"
